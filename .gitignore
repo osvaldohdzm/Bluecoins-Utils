@@ -1,7 +1,7 @@
 # Ignore everything in this directory
-Account-statements\BBVA-Credit\*
-Account-statements\BBVA-Debit\*
-env
+Account-statements/BBVA-Credit/*
+Account-statements/BBVA-Debit/*
+env/*
 
 # Except this file
 !.gitignore
