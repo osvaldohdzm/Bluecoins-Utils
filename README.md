@@ -1,6 +1,47 @@
 # Bluecoins-Utils
 
-A Tableau file to analyze and generate a report of BBVA account statements in Mexico. 
+Import BBVA account statements in Mexico to [Bluecoins App](https://www.bluecoinsapp.com/ ) format.
+
+Example: Download excel file from 01 to 31 movements. Or for all to current Sunday.
+
+
+
+
+
+CARGO PAGO TARJETA DE CRÉDITO								
+No se registran movimientos en efectivo								
+			
+
+##### 		Importing			
+
+Menu/Ajustes/Gestión de datos/Importar datos/Excel (CSV)/Importar desde excelk
+
+Select the file.
+
+Set estándar version
+
+Codificacion Utf8
+
+Date format dd/MM/yyy
+
+​				
+​								
+
+	For Transfer Transaction Type, use the letter “t” – without quotes							
+								
+	For transfers, create two rows in your CSV file.							
+	The first row is the sending account. Make the 1st row a negative amount.							
+	The second is the receiving account. Make the 2nd row a negative amount. It must be the same amount.							
+
+
+​								
+​								
+	15-Mar							
+	15 de marzo en adelante							
+								
+	Categorizar las transferencias en cada cuenta						Entra	Gasto
+	Dejar solo las transferencias de BBVA egreso						Entra	Transfiere
+	Dejar solo las transferencias de las demás de ingreso							
 
 
 
@@ -69,9 +110,9 @@ No se registran movimientos en efectivo
 ​								
 ​	For Transfer Transaction Type, use the letter “t” – without quotes							
 ​								
-	For transfers, create two rows in your CSV file.							
-	The first row, which is the sending account, should have a negative sign.						
-	The second row, which is the receiving account, should have a positive sign. It must be the same amount.							
+​	For transfers, create two rows in your CSV file.							
+​	The first row, which is the sending account, should have a negative sign.						
+​	The second row, which is the receiving account, should have a positive sign. It must be the same amount.							
 
 
 ​								
@@ -79,9 +120,9 @@ No se registran movimientos en efectivo
 ​	15-mar							
 ​	15 de marzo en adelante							
 ​								
-	Categorizar las transferencias en cada cuenta						Entra	Gasto
-	Dejar solo las transferencias de BBVA egreso						Entra	Transfiere
-	Dejar solo las transferencias de las demás de ingreso							
+​	Categorizar las transferencias en cada cuenta						Entra	Gasto
+​	Dejar solo las transferencias de BBVA egreso						Entra	Transfiere
+​	Dejar solo las transferencias de las demás de ingreso							
 
 
 Cueeda cuando hagas transiferencias poner como concepto en mayusculas sin acentos
